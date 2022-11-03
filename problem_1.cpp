@@ -13,7 +13,7 @@ int main()
 
     // search for 4 first occurence.
     int index1=lower_bound(a,a+9,10)-a;
-    if(index!=9 && a[index2]) cout<<index1<<endl; // output: 7;
+    if(index1!=9 && a[index1]) cout<<index1<<endl; // output: 7;
     else cout<<-1<<endl;
 
     return 0;
